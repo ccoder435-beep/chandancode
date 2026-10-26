@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Projects | Chandan Kumar — Chandan Code</title>
+  <meta name="title" content="Projects | Chandan Kumar — Chandan Code">
+  <meta name="description" content="Software and Hardware engineering projects by Chandan Kumar: ESP32 IoT stations, Arduino C/C++ systems, Python tools, and Web applications.">
+  <meta name="author" content="Chandan Kumar">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://chandancode.github.io/projects.html">
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='16' fill='%23000'/><text x='50%' y='64%' font-size='44' font-family='monospace' font-weight='bold' fill='%23fff' text-anchor='middle'>&lt;C/&gt;</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">
+        <span class="logo-bracket">&lt;</span><span class="logo-name">ChandanCode</span><span class="logo-slash">&#47;</span><span class="logo-bracket">&gt;</span>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="skills.html" class="nav-link">Skills</a></li>
+          <li><a href="projects.html" class="nav-link active">Projects</a></li>
+          <li><a href="blog.html" class="nav-link">Notes</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="contact.html" class="btn btn-sm btn-primary hide-mobile">Get in Touch</a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">
+          <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      
+      <!-- Page Header -->
+      <div class="page-header">
+        <div class="section-tag"><i class="fa-solid fa-folder-open"></i> Portfolio Work</div>
+        <h1 class="page-title">Featured Projects</h1>
+        <p class="page-subtitle">A collection of hands-on electronics engineering implementations, IoT hardware prototypes, Python automation scripts, and web platforms.</p>
+      </div>
+
+      <!-- Projects Grid -->
+      <div class="projects-grid">
+        
+        <!-- PROJECT 1: ESP32 IoT Station -->
+        <article class="project-card">
+          <div class="project-tag-bar">
+            <span class="p-badge">IoT &amp; Embedded</span>
+            <span class="p-status">Active Hardware Build</span>
+          </div>
+          <h2 class="project-title">ESP32 Smart IoT Weather &amp; Environment Monitor</h2>
+          <p class="project-summary">
+            A standalone Wi-Fi telemetry station engineered using the ESP32 microcontroller. Gathers real-time temperature, humidity, and atmospheric data using DHT sensors, renders readings onto an I2C OLED display, and hosts a lightweight local web dashboard for remote browser monitoring.
+          </p>
+          <div class="project-tech-chips">
+            <span>ESP32</span>
+            <span>C++</span>
+            <span>Arduino IDE</span>
+            <span>HTML/CSS</span>
+            <span>I2C OLED</span>
+            <span>Wi-Fi HTTP</span>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/chandancode" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+              <i class="fa-brands fa-github"></i> View Repo
+            </a>
+            <a href="contact.html" class="btn btn-sm btn-primary">
+              <i class="fa-solid fa-circle-info"></i> Project Details
+            </a>
+          </div>
+        </article>
+
+        <!-- PROJECT 2: Arduino Microcontroller System -->
+        <article class="project-card">
+          <div class="project-tag-bar">
+            <span class="p-badge">Embedded C/C++</span>
+            <span class="p-status">Electronics Lab</span>
+          </div>
+          <h2 class="project-title">Arduino Relay Automation &amp; Distance Sensing Engine</h2>
+          <p class="project-summary">
+            Microcontroller system built in C/C++ on the Arduino platform. Employs HC-SR04 ultrasonic sensors to detect object proximity and automatically triggers relay channels with debouncing logic and fail-safe hardware overrides.
+          </p>
+          <div class="project-tech-chips">
+            <span>Arduino Uno</span>
+            <span>Embedded C</span>
+            <span>Relay Modules</span>
+            <span>Sensors</span>
+            <span>Circuit Design</span>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/chandancode" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+              <i class="fa-brands fa-github"></i> View Repo
+            </a>
+            <a href="contact.html" class="btn btn-sm btn-primary">
+              <i class="fa-solid fa-wrench"></i> Documentation
+            </a>
+          </div>
+        </article>
+
+        <!-- PROJECT 3: Python Automation Suite -->
+        <article class="project-card">
+          <div class="project-tag-bar">
+            <span class="p-badge">Python Software</span>
+            <span class="p-status">Open Source</span>
+          </div>
+          <h2 class="project-title">Python Automation &amp; Serial Telemetry Logger</h2>
+          <p class="project-summary">
+            Command-line application that interfaces with computer COM/Serial ports using PySerial. Automatically logs streaming sensor data from microcontrollers into formatted CSV files and generates visual graphs using Python libraries.
+          </p>
+          <div class="project-tech-chips">
+            <span>Python 3</span>
+            <span>PySerial</span>
+            <span>CLI</span>
+            <span>Data Logging</span>
+            <span>Automation</span>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/chandancode" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+              <i class="fa-brands fa-github"></i> View Repo
+            </a>
+            <a href="contact.html" class="btn btn-sm btn-primary">
+              <i class="fa-solid fa-terminal"></i> Try Scripts
+            </a>
+          </div>
+        </article>
+
+        <!-- PROJECT 4: Chandan Code Web Platform -->
+        <article class="project-card">
+          <div class="project-tag-bar">
+            <span class="p-badge">Web Engineering</span>
+            <span class="p-status">Live Production</span>
+          </div>
+          <h2 class="project-title">Chandan Code — Minimalist Developer Platform</h2>
+          <p class="project-summary">
+            High-performance, pure black-and-white personal portfolio and engineering notes portal. Handcrafted with semantic HTML5, pure CSS variables, and lightweight JavaScript with full SEO/AEO metadata and Schema.org integration.
+          </p>
+          <div class="project-tech-chips">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+            <span>SEO / AEO</span>
+            <span>GitHub Pages</span>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/chandancode/chandancode.github.io" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+              <i class="fa-brands fa-github"></i> GitHub Repo
+            </a>
+            <a href="index.html" class="btn btn-sm btn-primary">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Site
+            </a>
+          </div>
+        </article>
+
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-about">
+          <a href="index.html" class="logo">
+            <span class="logo-bracket">&lt;</span><span class="logo-name">ChandanCode</span><span class="logo-slash">&#47;</span><span class="logo-bracket">&gt;</span>
+          </a>
+          <p>Chandan Kumar — Electronics Engineering Student at GP Patna-7 &amp; Software Developer.</p>
+          <div class="footer-social-links">
+            <a href="https://www.linkedin.com/in/chandan-kumar-806581425?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com/ywusj99mskeo39eownwn?xtok=MTA1b2xtd2MyNjZudQ==" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/chandancode" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Pages</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="skills.html">Skills &amp; Tech</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="blog.html">Notes &amp; Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Hardware Lab</h4>
+          <p style="font-size: 0.88rem; color: #a1a1aa;">ESP32, Arduino, Microcontroller and IoT Circuit Prototyping.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Collaborate</h4>
+          <a href="contact.html" class="btn btn-sm btn-outline">Propose a Project</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Chandan Kumar. Brand: <strong>Chandan Code</strong>.</p>
+        <p><a href="https://chandancode.github.io/">chandancode.github.io</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

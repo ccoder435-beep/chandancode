@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Engineering Notes &amp; Tutorials | Chandan Kumar — Chandan Code</title>
+  <meta name="title" content="Engineering Notes &amp; Tutorials | Chandan Kumar — Chandan Code">
+  <meta name="description" content="Free engineering notes, C/C++ programming guides, Python tutorials, ESP32 cheat sheets, and Japanese study notes by Chandan Kumar (GP Patna-7).">
+  <meta name="author" content="Chandan Kumar">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://chandancode.github.io/blog.html">
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='16' fill='%23000'/><text x='50%' y='64%' font-size='44' font-family='monospace' font-weight='bold' fill='%23fff' text-anchor='middle'>&lt;C/&gt;</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">
+        <span class="logo-bracket">&lt;</span><span class="logo-name">ChandanCode</span><span class="logo-slash">&#47;</span><span class="logo-bracket">&gt;</span>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="skills.html" class="nav-link">Skills</a></li>
+          <li><a href="projects.html" class="nav-link">Projects</a></li>
+          <li><a href="blog.html" class="nav-link active">Notes</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="contact.html" class="btn btn-sm btn-primary hide-mobile">Get in Touch</a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">
+          <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      
+      <!-- Page Header -->
+      <div class="page-header">
+        <div class="section-tag"><i class="fa-solid fa-book-bookmark"></i> Study Material &amp; Guides</div>
+        <h1 class="page-title">Engineering Notes &amp; Tutorials</h1>
+        <p class="page-subtitle">Handcrafted study notes on C/C++, Python programming, electronics circuit theory, ESP32 microcontroller design, and Japanese language fundamentals.</p>
+      </div>
+
+      <!-- Live Search Box -->
+      <div class="blog-search-wrap">
+        <div class="search-input-box">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" id="blogSearch" placeholder="Search notes by topic (e.g., C pointers, ESP32, Python, Japanese)..." aria-label="Search notes">
+        </div>
+      </div>
+
+      <!-- Notes Grid -->
+      <div class="notes-grid">
+        
+        <!-- NOTE 1: C Programming & Pointers -->
+        <article class="note-card">
+          <div class="note-head">
+            <span class="note-cat">C Programming</span>
+            <span class="note-type">PDF Handwritten Guide</span>
+          </div>
+          <h2 class="note-title">Mastering C Pointers, Memory Allocation &amp; Structures</h2>
+          <p class="note-summary">
+            A comprehensive breakdown of pointer arithmetic, dynamic memory allocation (`malloc`, `free`), function pointers, and bitwise operators tailored for embedded microcontrollers and SBTE Bihar diploma exams.
+          </p>
+          <div class="note-footer">
+            <span class="note-author"><i class="fa-solid fa-user-pen"></i> Chandan Kumar</span>
+            <button class="btn btn-sm btn-outline btn-download-note" data-note="Mastering C Pointers Guide">
+              <i class="fa-solid fa-download"></i> Download Notes
+            </button>
+          </div>
+        </article>
+
+        <!-- NOTE 2: ESP32 Hardware Cheat Sheet -->
+        <article class="note-card">
+          <div class="note-head">
+            <span class="note-cat">Embedded Systems</span>
+            <span class="note-type">Hardware Reference</span>
+          </div>
+          <h2 class="note-title">ESP32 Pinout, GPIO Caveats, Timers &amp; ADC Cheat Sheet</h2>
+          <p class="note-summary">
+            Essential reference card covering strapping pins, input-only GPIOs (34-39), internal pull-up/pull-down resistors, non-linear ADC attenuation calibration, and hardware timer interrupt configurations.
+          </p>
+          <div class="note-footer">
+            <span class="note-author"><i class="fa-solid fa-user-pen"></i> Chandan Kumar</span>
+            <button class="btn btn-sm btn-outline btn-download-note" data-note="ESP32 GPIO & Timers Cheat Sheet">
+              <i class="fa-solid fa-download"></i> Download Notes
+            </button>
+          </div>
+        </article>
+
+        <!-- NOTE 3: Python Automation -->
+        <article class="note-card">
+          <div class="note-head">
+            <span class="note-cat">Python</span>
+            <span class="note-type">Practical Tutorial</span>
+          </div>
+          <h2 class="note-title">Python for Hardware Engineers: Serial Port Communication</h2>
+          <p class="note-summary">
+            Learn how to use PySerial to read streaming telemetry from an Arduino or ESP32, parse string and binary payloads, and store data into CSV format for rapid automated hardware testing.
+          </p>
+          <div class="note-footer">
+            <span class="note-author"><i class="fa-solid fa-user-pen"></i> Chandan Kumar</span>
+            <button class="btn btn-sm btn-outline btn-download-note" data-note="Python Serial Port Communication">
+              <i class="fa-solid fa-download"></i> Download Notes
+            </button>
+          </div>
+        </article>
+
+        <!-- NOTE 4: Japanese Guide -->
+        <article class="note-card">
+          <div class="note-head">
+            <span class="note-cat">Japanese (日本語)</span>
+            <span class="note-type">Language Notes</span>
+          </div>
+          <h2 class="note-title">Japanese Language Study Notes for Tech Students (JLPT N5)</h2>
+          <p class="note-summary">
+            My curated study guide covering Hiragana &amp; Katakana tables, foundational sentence grammar patterns (`〜は〜です`), essential tech terminology, and daily vocabulary for aspiring engineers.
+          </p>
+          <div class="note-footer">
+            <span class="note-author"><i class="fa-solid fa-user-pen"></i> Chandan Kumar</span>
+            <button class="btn btn-sm btn-outline btn-download-note" data-note="Japanese Study Guide for Tech Students">
+              <i class="fa-solid fa-download"></i> Download Notes
+            </button>
+          </div>
+        </article>
+
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-about">
+          <a href="index.html" class="logo">
+            <span class="logo-bracket">&lt;</span><span class="logo-name">ChandanCode</span><span class="logo-slash">&#47;</span><span class="logo-bracket">&gt;</span>
+          </a>
+          <p>Chandan Kumar — Electronics Engineering Student at GP Patna-7 &amp; Software Developer.</p>
+          <div class="footer-social-links">
+            <a href="https://www.linkedin.com/in/chandan-kumar-806581425?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com/ywusj99mskeo39eownwn?xtok=MTA1b2xtd2MyNjZudQ==" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/chandancode" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Pages</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="skills.html">Skills &amp; Tech</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="blog.html">Notes &amp; Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Topics</h4>
+          <p style="font-size: 0.88rem; color: #a1a1aa;">C Language, Embedded ESP32, Python Scripts, Japanese (日本語).</p>
+        </div>
+        <div class="footer-col">
+          <h4>Connect</h4>
+          <a href="contact.html" class="btn btn-sm btn-outline">Request a Topic</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Chandan Kumar. Brand: <strong>Chandan Code</strong>.</p>
+        <p><a href="https://chandancode.github.io/">chandancode.github.io</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
